@@ -1,49 +1,27 @@
-// Basic reveal for heading and paragraph
-ScrollReveal().reveal('.reveal', {
-    distance: '40px',
+ScrollReveal().reveal('.reveal1', {
     duration: 1200,
-    easing: 'ease-out',
-    origin: 'bottom'
-});
-
-// Image 1
-ScrollReveal().reveal('img:nth-of-type(1)', {
-    distance: '60px',
-    duration: 1500,
     origin: 'left',
-    delay: 200
+    distance: '100px'
 });
 
-// Image 2
-ScrollReveal().reveal('img:nth-of-type(2)', {
-    distance: '60px',
-    duration: 1500,
+ScrollReveal().reveal('.reveal2', {
+    duration: 1200,
     origin: 'right',
-    delay: 300
+    distance: '100px'
 });
 
-// Image 3
-ScrollReveal().reveal('img:nth-of-type(3)', {
-    distance: '80px',
-    duration: 1600,
+ScrollReveal().reveal('.reveal3', {
+    duration: 1200,
     origin: 'bottom',
-    delay: 400
+    distance: '80px'
 });
 
-// Image 4
-ScrollReveal().reveal('img:nth-of-type(4)', {
-    distance: '80px',
-    duration: 1600,
-    origin: 'top',
-    delay: 500
+ScrollReveal().reveal('.reveal4', {
+    duration: 1200,
+    rotate: { x: 0, y: 50, z: 0 }
 });
 
-// Image 5
-ScrollReveal().reveal('img:nth-of-type(5)', {
-    distance: '100px',
-    duration: 1800,
-    origin: 'left',
-    delay: 600,
-    rotate: { x: 0, y: 20, z: 0 }
+ScrollReveal().reveal('.reveal5', {
+    duration: 1200,
+    scale: 0.85
 });
-
