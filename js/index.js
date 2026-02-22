@@ -1,3 +1,4 @@
+console.log(document.querySelectorAll('img'));
 document.addEventListener("DOMContentLoaded", function () {
 
     window.sr = ScrollReveal({ reset: false });

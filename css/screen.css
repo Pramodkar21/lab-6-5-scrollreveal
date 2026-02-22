@@ -20,16 +20,12 @@ img {
     border-radius: 8px;
 }
 
-/* Hide all images initially for ScrollReveal */
-.reveal1,
-.reveal2,
-.reveal3,
-.reveal4,
-.reveal5 {
-    opacity: 0;
-}
+
 
 /* Allow scrolling so reveals trigger */
 body {
     min-height: 200vh;
 }
+.reveal1, .reveal2, .reveal3, .reveal4, .reveal5 { opacity: 1; }
+
+
