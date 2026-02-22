@@ -11,7 +11,8 @@ h1 {
     margin-bottom: 20px;
 }
 
-.image-row img {
+/* Image styling */
+img {
     width: 100%;
     height: auto;
     display: block;
@@ -19,23 +20,16 @@ h1 {
     border-radius: 8px;
 }
 
-
-.reveal {
+/* Hide all images initially for ScrollReveal */
+.reveal1,
+.reveal2,
+.reveal3,
+.reveal4,
+.reveal5 {
     opacity: 0;
-    transition: opacity 0.8s ease-out;
 }
 
-body { 
-    opacity: 1 !important; 
-}
-html.sr .reveal {
-    opacity: 1 !important;
-}
+/* Allow scrolling so reveals trigger */
 body {
     min-height: 200vh;
 }
-
-
-
-
-
