@@ -1,0 +1,27 @@
+body {
+    font-family: Arial, sans-serif;
+    max-width: 700px;
+    margin: 0 auto;
+    padding: 20px;
+    line-height: 1.6;
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.image-row img {
+    width: 100%;
+    margin-bottom: 20px;
+    border-radius: 8px;
+}
+
+.reveal1, .reveal2, .reveal3, .reveal4, .reveal5 {
+    opacity: 0;
+}
+
+img {
+    display: block;
+    width: 100%;
+}
