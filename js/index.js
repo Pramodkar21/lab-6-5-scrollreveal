@@ -1,3 +1,4 @@
+console.log("JS is running!");
 window.sr = ScrollReveal({ reset: false });
 
 // Image 1 — slide from left
