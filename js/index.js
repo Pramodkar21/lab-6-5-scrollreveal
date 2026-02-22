@@ -1,7 +1,8 @@
 ScrollReveal().reveal('.reveal', {
-    duration: 1000,
-    distance: '20px',
-    origin: 'bottom',
-    opacity: 0
+    duration: 800,
+    distance: '0px',
+    opacity: 1,
+    reset: false
 });
+
 
