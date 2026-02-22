@@ -13,9 +13,12 @@ h1 {
 
 .image-row img {
     width: 100%;
+    height: auto;
+    display: block;
     margin-bottom: 20px;
     border-radius: 8px;
 }
+
 
 .reveal1, .reveal2, .reveal3, .reveal4, .reveal5 {
     opacity: 0;
