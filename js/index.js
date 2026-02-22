@@ -11,15 +11,21 @@ ScrollReveal().reveal('.reveal2', {
 });
 
 ScrollReveal().reveal('.reveal3', {
-    duration: 1200,
+    duration: 1600,
     origin: 'bottom',
-    distance: '80px'
+    distance: '200px',
+    easing: 'ease-out'
 });
 
+
 ScrollReveal().reveal('.reveal4', {
-    duration: 1200,
-    rotate: { x: 0, y: 50, z: 0 }
+    duration: 1600,
+    rotate: { x: 0, y: 180, z: 0 },
+    distance: '120px',
+    origin: 'right',
+    easing: 'ease-out'
 });
+
 
 ScrollReveal().reveal('.reveal5', {
     duration: 1200,
