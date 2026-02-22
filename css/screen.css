@@ -19,6 +19,7 @@ h1 {
 
 .reveal1, .reveal2, .reveal3, .reveal4, .reveal5 {
     opacity: 0;
+    transition: opacity 1s ease-out;
 }
 
 

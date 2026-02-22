@@ -1,3 +1,4 @@
+console.log("JS is running");
 ScrollReveal().reveal('.reveal1', {
     duration: 1200,
     origin: 'left',
