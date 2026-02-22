@@ -31,6 +31,10 @@ body {
 html.sr .reveal {
     opacity: 1 !important;
 }
+body {
+    min-height: 200vh;
+}
+
 
 
 
